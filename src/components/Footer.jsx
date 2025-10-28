@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from '../assets/logo2red.svg';
 import { motion } from 'framer-motion';
-import Lottie from 'lottie-react';
+
 import BoxingAnimation from '../assets/BoxingAnimation.json';
 import whatsapp from '../assets/whatsappori.svg';
 import bg from '../assets/bgfooter.jpg';
@@ -56,12 +56,7 @@ const Footer = () => {
           />
         </motion.a>
 
-        {/* Lottie Animation */}
-        <div className="flex justify-center items-center w-full">
-          <div className="w-56 sm:w-64 md:w-80">
-            <Lottie animationData={BoxingAnimation} loop={true} />
-          </div>
-        </div>
+
         <hr className="border-t-2 border-white w-3/4 my-6 opacity-70" />
   
   <p className="text-center text-white text-sm">
