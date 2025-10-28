@@ -1,6 +1,4 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import Appbar from './components/Appbar';
 import Landingpage from './components/Landingpage';
@@ -14,7 +12,6 @@ import Pricing from './components/Pricing';
 import Mission from './components/Mission';
 function App() {
  
-
   return (
     <>
     <Appbar/>
