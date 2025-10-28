@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Logo from "../assets/logo2red.svg";
+import gfclogo from "../assets/gfclogo.svg";
 import MenuIcon from "../assets/menuwhite.svg";
 import CloseIcon from "../assets/closewhite.svg";
 import { motion, AnimatePresence } from "framer-motion";
@@ -40,6 +41,7 @@ const Appbar = () => {
           </button>
         ))}
       </div>
+       
 
       {/* Mobile Hamburger */}
       {!menuOpen && (
@@ -52,6 +54,7 @@ const Appbar = () => {
           />
         </div>
       )}
+      <img src={gfclogo} className="h-10" alt="gfcLogo" />
 
       {/* Mobile Dropdown Menu */}
       <AnimatePresence>

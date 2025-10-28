@@ -6,12 +6,14 @@ import g4 from "../assets/g4.jpg";
 import g5 from "../assets/g5.jpg";
 import g6 from "../assets/g6.jpg";
 import g7 from "../assets/g7.jpg";
-import g8 from "../assets/g8.jpg";
-
+import g9 from "../assets/g9.jpg";
+import g10 from "../assets/g10.jpg";
+import g11 from "../assets/g11.jpg";
+import g12 from "../assets/g12.jpg";
 const Gallery = () => {
   const [showAll, setShowAll] = useState(false);
 
-  const images = [g1, g2, g3, g4, g5, g6, g7, g8];
+  const images = [g1, g2, g3, g10, g11, g12, g4, g5, g6, g7,g9 ];
 
   return (
     <div className="relative bg-black p-6 flex flex-col items-center justify-center overflow-hidden">

@@ -62,6 +62,25 @@ const Footer = () => {
             <Lottie animationData={BoxingAnimation} loop={true} />
           </div>
         </div>
+        <hr className="border-t-2 border-white w-3/4 my-6 opacity-70" />
+  
+  <p className="text-center text-white text-sm">
+  © {new Date().getFullYear()}{" "}
+  <motion.span
+    animate={{ color: ["#ff0000", "#ffffff"] }}
+    transition={{
+      duration: 1,       // 1 second
+      repeat: Infinity,  // loop forever
+      repeatType: "reverse", // back and forth
+      ease: "easeInOut"  // smooth transition
+    }}
+    className="font-semibold"
+  >
+    Tiger Cage MMA
+  </motion.span>
+  . All rights reserved.
+</p>
+
       </div>
     </div>
   );

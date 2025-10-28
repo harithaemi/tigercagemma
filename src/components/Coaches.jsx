@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Abhi from "../assets/Abhi.jpg";
+import Abhi from "../assets/abhi1.jpg";
 import AshkarBasheer from "../assets/AshkarBasheer.jpg";
-import Adithyanks from "../assets/Adithyanks.jpg";
+import Adithyanks1 from "../assets/Adithyanks1.jpg";
 import insta from "../assets/instaori.svg";
 
 const Coaches = () => {
@@ -11,23 +11,25 @@ const Coaches = () => {
       img: AshkarBasheer,
       name: "Ashkar Basheer",
       title: "Head Coach",
-      desc: "Certified international coach in combat sports. Head coach at GFC and managing director of Tiger Cage MMA. Former Vice President of the Kerala State Muay Thai Association.",
+      desc: "Head Coach of TigerCage Gym, Mongkol 5 Assistant Grand Master (Arjarn).International Coach (IFMA) and National Judge & Referee (AIMMAF, UMAI, AIU Grappling).Renowned for his leadership and commitment to professional combat sports coaching.",
       link: "https://www.instagram.com/coachashkarbasheer?igsh=OWdxcGtkdXh2dXdz", // 🔗 Replace this with Instagram link
+    },
+    {
+      img: Adithyanks1,
+      name: "Adithyan KS",
+      title: "Coach",
+      desc: "Internationally Certified Muay Thai Coach Affiliated with UMAI, IFMA, and KSMA. Khan 10 (Assistant Master), Kerala State Judge & Referee in Muay Thai.International Coach and Referee in Grappling, recognized by United World Wrestling (UWW)",
+      link: "https://www.instagram.com/_coach_adithyan?igsh=bmM0dGVyamRwbHk2", // 🔗 Replace this with Instagram link
     },
     {
       img: Abhi,
       name: "Abhijith",
-      title: "MMA Coach",
-      desc: "Champion with gold and bronze medals at the IAKO Kickboxing Nationals and KAK State titles. Dedicated MMA coach specializing in striking, conditioning, and competitive fight preparation.",
-      link: "https://www.instagram.com/ccoach_abhi?igsh=MXhxanFxenppaXlieA==", // 🔗 Replace this with Instagram link
+      title: "Coach",
+      desc: " Pro Fighter and Striking Coach specializing in Boxing, Kickboxing, and Mixed Martial Arts. Dedicated to developing strong fundamentals and technical precision in fighters. Committed to training athletes for both competitive and fitness goals at TigerCage Gym.",
+      link: "https://www.instagram.com/_p_a_k_k_i_?igsh=dGVwcWRzdDdmam8x", // 🔗 Replace this with Instagram link
     },
-    {
-      img: Adithyanks,
-      name: "Adithyan KS",
-      title: "MMA Coach",
-      desc: "Professional MMA trainer focused on strength, conditioning, and technique development. Known for his disciplined approach and ability to bring out peak performance in every athlete.",
-      link: "https://www.instagram.com/adithyanks7012?igsh=bmM0dGVyamRwbHk2", // 🔗 Replace this with Instagram link
-    },
+// //  Pro Fighter and Striking Coach specializing in Boxing, Kickboxing, and Mixed Martial Arts. Dedicated to developing strong fundamentals and technical precision in fighters. Committed to training athletes for both competitive and fitness goals at TigerCage Gym.
+
   ];
 
   // Animation variants

@@ -5,7 +5,7 @@ import locationred from '../assets/locationred.png';
 import insta from '../assets/instagrey.svg';
 import youtube from '../assets/ytgrey.svg';
 import whatsapp from '../assets/whatsappgrey.svg';
-import mail from '../assets/mailgrey.svg';
+
 import call from '../assets/callgrey.svg';
 
 
@@ -68,20 +68,18 @@ const Contact = () => {
       </div>
       <hr className="border-t-2 border-white w-3/4 my-6 opacity-70" />
       <div className="flex flex-wrap justify-center items-center gap-6 mb-8">
-        <a href="mailto:tigercagemma@gmail.com" target="_blank" rel="noreferrer">
-          <img src={mail} alt="mail" className="w-8 h-8 sm:w-10 sm:h-10 hover:scale-110 transition-transform" />
-        </a>
+       
         <a href="tel:+919947743378">
-          <img src={call} alt="call" className="w-7 h-7 sm:w-10 sm:h-10 hover:scale-110 transition-transform" />
+          <img src={call} alt="call" className="w-7 h-7  hover:scale-110 transition-transform" />
         </a>
         <a href="https://wa.me/919947743378" target="_blank" rel="noreferrer">
-          <img src={whatsapp} alt="whatsapp" className="w-7 h-7sm:w-10 sm:h-10 hover:scale-110 transition-transform" />
+          <img src={whatsapp} alt="whatsapp" className="w-7 h-7 hover:scale-110 transition-transform" />
         </a>
         <a href="https://www.instagram.com/tigercagemma?igsh=MThkdDRnd2RvemJrNw==" target="_blank" rel="noreferrer">
-          <img src={insta} alt="instagram" className="w-7 h-7 sm:w-10 sm:h-10 hover:scale-110 transition-transform" />
+          <img src={insta} alt="instagram" className="w-7 h-7  hover:scale-110 transition-transform" />
         </a>
         <a href="https://youtube.com/@tigercagemma?si=9hzKaV4amQ6svQdK" target="_blank" rel="noreferrer">
-          <img src={youtube} alt="youtube" className="w-7 h-7 sm:w-10 sm:h-10 hover:scale-110 transition-transform" />
+          <img src={youtube} alt="youtube" className="w-7 h-7  hover:scale-110 transition-transform" />
         </a>
       </div>
     </div>
