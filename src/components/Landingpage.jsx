@@ -1,5 +1,5 @@
 import React from 'react';
-import Bg from '../assets/bg1video.mp4';
+import Bg from '../assets/bgfinal.mp4';
 import Logo3 from '../assets/logowyellow.png';
 import { motion } from 'framer-motion';
 
